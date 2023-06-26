@@ -1,0 +1,127 @@
+.logo {
+    width: 170px;
+    padding-top: 0px;
+}
+
+  .container {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .centered-image {
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      max-width: 100%; 
+
+    }
+
+      .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 80px;
+        font-size: 17px;
+        font-family: sans-serif;
+        text-decoration: none;
+    
+
+      }
+
+      .navbar li a {
+        text-decoration: none;
+        color:black;
+      
+        
+      }
+
+    .navbar li a:hover {
+        color: rgb(63, 63, 63);
+
+    }
+
+    .dog-1 {
+        width: 400px;
+        margin-left: 150px;
+    }
+
+    .dog-decription {
+display: inline-flex;
+
+    }
+
+    .golden-paw-title {
+        margin: 0px;
+    }
+
+
+    .shop-now-button {
+        background-color: black;
+        color: white;
+        border-radius: 40px;
+        padding: 15px 38px;
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+        margin-left: 10px;
+
+
+    }
+
+
+    .shop-now-button:hover {
+        background-color: rgb(3, 3, 121);
+        color: white;
+      }
+
+      .golden-paw-title {
+       padding-left: 40px;
+       display: inline-block;
+
+      }
+
+     .product-decription {
+      margin-top: 20px;
+
+      }
+
+      .dog-photos-of-3 img {
+        height: auto;
+        transition: transform 0.3s ease-in-out;
+      }
+    
+    
+      .dog-1:hover {
+        content: url(dog\ 1\ hoover.jpg); 
+      }
+
+      .zoomable-image {
+        cursor: zoom-in;
+        transition: transform 0.3s;
+    }
+    
+    .zoomable-image.zoomed {
+        transform: scale(2);
+    }
+
+    .countdown-banner {
+        background-color: black;
+        color: white;
+        padding: 7px;
+        text-align: center;
+        font-size: 14px;
+        font-family: sans-serif;
+       margin-bottom: 4px;
+      }
+
+      .countdown {
+        color:white;
+        font-size: 24px;
+
+      }
+
+      
+
+    
+    tag > class > id
